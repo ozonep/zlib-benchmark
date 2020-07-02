@@ -27,7 +27,7 @@ directoryPerDB: false
 systemLogVerbosity: 0
 disableSystemLog: false
 
-configuration:
+configuration: "
   # where and how to store data.
   storage:
     dbPath: /bitnami/mongodb/data/db
@@ -77,8 +77,7 @@ configuration:
   # security options
   security:
     authorization: enabled
-    #keyFile: /opt/bitnami/mongodb/conf/keyfile
-
+    #keyFile: /opt/bitnami/mongodb/conf/keyfile"
 
 ## initdb scripts
 ## Specify dictionary of scripts to be run at first boot
